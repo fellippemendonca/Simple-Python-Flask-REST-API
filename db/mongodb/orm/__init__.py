@@ -23,5 +23,6 @@ def findVehicles(query, pages, sortValue):
   return [vehicle for vehicle in vehiclesCol.find(query, fieldRules).skip(skipNum).limit(limitNum)]
 
 def findVehicleById(vehicleId):
+  fieldRules = { '_id': 0 }
   vehicle = vehiclesCol.find_one({ 'id': vehicleId }, fieldRules)
   return vehicle

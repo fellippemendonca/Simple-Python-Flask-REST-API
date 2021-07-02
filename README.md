@@ -17,7 +17,7 @@ curl --location --request GET 'http://127.0.0.1:5000/vehicles?sort=miles_until_s
 
 ### GET Vehicles by ID
 ```bash
-curl --location --request GET 'http://127.0.0.1:5000/api/v1/vehicles/db99d2a1-6e5b-49dc-91f4-738caf09dcde' \
+curl --location --request GET 'http://127.0.0.1:5000/vehicles/db99d2a1-6e5b-49dc-91f4-738caf09dcde' \
 --header 'Authorization: Basic YWRtaW5pc3RyYXRvcjpwYXNzd29yZA=='
 ```
 
