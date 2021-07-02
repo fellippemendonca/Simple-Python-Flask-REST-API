@@ -1,5 +1,8 @@
 # Simple Python Flask REST API
 
+## Environment Requirements:
+- MongoDB instance listening at: `mongodb://localhost:27017/`
+
 ## Instructions:
 ```bash
 $ pip3 install -r requirements.txt
